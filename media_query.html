@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Media Query</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+        body {
+            margin: 0;
+        }
+
+        .container {
+            width: 100vw;
+            background: #eee;
+            float: left;
+        }
+        nav,section {
+            margin: 2%;
+            height: 50vh;
+            /* float: left; */
+        }
+        nav {
+            background: lightblue;
+            float: left;
+            width: 20%;
+
+        }
+        section {
+            background: lightcoral;
+            float: left;
+            width: 72%;
+        }
+
+        @media(max-width: 600px){
+            nav,section {float: none; width: auto;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>nav</nav>
+        <section>section</section>
+    </div>
+</body>
+</html>

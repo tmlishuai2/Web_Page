@@ -1,0 +1,124 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+    border: 1px solid;
+    color: #2b2b2b;
+    text-indent: 32px;
+    letter-spacing: 8px;
+    word-spacing: 8px;
+    line-height: 30px;
+    text-decoration: line-through;
+    text-align: left;
+}
+
+h3 {
+    background-color: #eee;
+    height: 60px;
+    line-height: 60px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+/* a[target="_blank"] {
+    text-decoration: none;
+    color: yellow ;
+    background: red;
+} */
+
+/* h3 {
+    border: 1px solid red;
+} */
+
+#work-records {
+    border: 1px solid yellow;
+}
+
+.outline.abc {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+input[disabled] {
+    cursor: not-allowed;
+} 
+
+/* a[href^="#"] {
+    background: blue;
+    color: white;
+} */
+
+/* ul#partime-jobs li {
+    color: red;
+}
+
+ul#partime-jobs > li {
+    color: thistle;
+} */
+
+ul#partime-jobs>* li {
+    color: rgb(76, 0, 255);
+}
+
+ul#partime-jobs > li:first-child {
+    color:red;
+}
+
+ul#partime-jobs>li:nth-child(2) {
+    color:burlywood;
+}
+
+table tbody tr:nth-child(2n+1) {
+    background: crimson;
+}
+
+table tbody tr:nth-child(2n) {
+    background: lawngreen;
+}
+
+/* a:visited {
+    color: lightcoral;
+} */
+
+a:hover {
+    color: white;
+    background: blue;
+}
+
+h3:target {
+    background: yellow;
+}
+
+/* p::first-letter {
+    color:red;
+}
+
+p::first-line {
+    color:blue;
+}
+
+p {
+    width: 50vw;
+} */
+
+h3::before {
+    content: "--";
+}
+
+ul>li {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
